@@ -1,0 +1,103 @@
+/* Body and general layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9e7f3; /* Light pink background */
+    color: #4b0082; /* Indigo text */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #9b59b6; /* Purple for the header */
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+form {
+    background-color: #ffffff; /* White form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 20px auto;
+    font-size: 16px;
+    border: 2px solid #9b59b6; /* Purple border */
+}
+
+label {
+    font-size: 16px;
+    color: #9b59b6; /* Purple label text */
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #9b59b6; /* Purple button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #8e44ad; /* Darker purple when hovered */
+}
+
+#orderDetails {
+    background-color: #d1c4e9; /* Light purple background for the order summary */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 320px;
+    margin: 20px auto;
+    color: #4b0082; /* Indigo text */
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#studentDetails {
+    color: #4b0082; /* Indigo color for student info */
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+input[type="text"], textarea {
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+select {
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Hover effect on form elements */
+input[type="text"]:focus, textarea:focus, select:focus {
+    border-color: #9b59b6; /* Purple border on focus */
+    outline: none;
+}
+
+/* Input checkboxes hover effect */
+input[type="checkbox"]:hover {
+    cursor: pointer;
+    background-color: #9b59b6;
+    border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Pizza Order Form</h1>
+
+    <!-- Pizza Order Form -->
+    <form id="pizzaOrderForm">
+        <label for="customerFullName">Customer Name:</label>
+        <input type="text" id="customerFullName" required><br>
+
+        <label for="pizzaSize">Pizza Size:</label>
+        <select id="pizzaSize" required>
+            <option value="small">Small - $10</option>
+            <option value="medium">Medium - $12</option>
+            <option value="large">Large - $15</option>
+        </select><br>
+
+        <label for="crustStyle">Crust Style:</label>
+        <select id="crustStyle" required>
+            <option value="thin">Thin</option>
+            <option value="thick">Thick</option>
+            <option value="stuffed">Stuffed</option>
+        </select><br>
+
+        <label>Toppings ($1 each):</label><br>
+        <input type="checkbox" id="cheeseTopping"> Cheese<br>
+        <input type="checkbox" id="pepperoniTopping"> Pepperoni<br>
+        <input type="checkbox" id="mushroomTopping"> Mushrooms<br>
+        <input type="checkbox" id="oliveTopping"> Olives<br>
+        <input type="checkbox" id="baconTopping"> Bacon<br>
+        <input type="checkbox" id="pineappleTopping"> Pineapple<br>
+        <input type="checkbox" id="greenPepperTopping"> Green Peppers<br><br>
+
+        <label for="dipOptions">Choose a Dip ($2 each):</label><br>
+        <input type="checkbox" id="garlicDip"> Garlic Sauce<br>
+        <input type="checkbox" id="bbqDip"> BBQ Sauce<br><br>
+
+        <label for="specialInstructions">Special Instructions:</label><br>
+        <textarea id="specialInstructions"></textarea><br><br>
+
+        <button type="button" id="submitOrderButton">Order</button>
+    </form>
+
+    <p id="studentDetails"></p>
+    <div id="orderDetails"></div>
+</body>
+</html>
